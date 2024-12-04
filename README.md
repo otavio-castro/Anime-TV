@@ -2,6 +2,8 @@
 
 Esta plataforma de séries foi desenvolvida para permitir aos usuários buscar, visualizar e explorar informações sobre suas séries favoritas. Utilizando conceitos de JavaScript, a API The Movie DB (TMDb) e outras tecnologias web, este projeto visa proporcionar uma experiência simples e intuitiva de navegação e descoberta de conteúdo.
 
+[Para Acessar a aplicação Clique Aqui](https://otavio-castro.github.io/Eppi-TV/codigo-fonte/index.html)
+
 ## Funcionalidades
 
 - **Busca por Séries:** Pesquise séries por nome utilizando a API The Movie DB.
@@ -20,7 +22,8 @@ Esta plataforma de séries foi desenvolvida para permitir aos usuários buscar, 
 
 1. **Clone o Repositório**
    ```bash
-  git clone https://github.com/otavio-castro/Eppi-TV.git
+   git clone https://github.com/otavio-castro/Eppi-TV.git
+  
 2. **Utilizar os comandos npm**
     ```bash
    npm install
