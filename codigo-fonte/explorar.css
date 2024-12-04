@@ -1,0 +1,113 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+
+h2 {
+    margin-top: 20px;
+    color: crimson;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 25px;
+}
+
+
+
+.header nav div a strong:hover {
+    font-size: 100%;
+    border: 2px solid white;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.container {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-bottom: 20px;
+}
+
+.aside {
+    margin-right: 50px;
+    border: 1px solid rgb(0, 0, 0, 0.7);
+    border-radius: 5px;
+    height: max-content;
+    margin-top: 100px;
+    width: 250px;
+}
+
+.aside ul li {
+    list-style: none;
+
+}
+
+.aside ul li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.aside ul li a:hover {
+    font-size: 110%;
+    border-width: 2px;
+    border-radius: 5px;
+    color: crimson;
+
+}
+
+.cards a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    text-align: center;
+    padding: 5px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+        /* Colunas em uma única coluna */
+        margin-top: 0;
+    }
+
+    .card-container {
+        max-width: 100%;
+        /* O container de cards vai ocupar toda a largura da tela */
+    }
+
+    .card {
+        flex: 1 1 100%;
+        /* Cada card ocupará 100% da largura disponível
+                        PODENDO AUMENTRAR E DIMINUIR SE NECESSÁRIO */
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .header {
+        flex-direction: column;
+        /* O header ficará em uma coluna */
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        z-index: 1000;
+    }
+
+    .aside {
+        width: 80%;
+        margin-bottom: 30px;
+        height: max-content;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
