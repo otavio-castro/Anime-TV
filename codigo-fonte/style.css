@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    /* Apagina vai ocupar uma altura de 100% dela mesma*/
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+h2 {
+    margin-top: 20px;
+    color: crimson;
+    border-bottom: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.text-crimson {
+    color: crimson;
+  }
+
+
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 0;
+
+}
+
+.header ul li a:hover {
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+
+
+.title01 {
+    margin-top: 50px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.carousel {
+
+    margin: 40px auto;
+    max-width: 90%;
+    /* Ajuste esse valor conforme a necessidade */
+    overflow: hidden;
+
+}
+
+.novas {
+
+    margin: 40px auto;
+    max-width: 80%;
+ 
+    /* Ajuste esse valor conforme a necessidade */
+    overflow: hidden;
+}
+
+.favoritas {
+
+    margin: 40px auto;
+    max-width: 80%;
+    /* Ajuste esse valor conforme a necessidade */
+    overflow: hidden;
+}
+
+.carousel img {
+
+    object-fit: cover;
+    /* Faz a imagem se ajustar dentro do espaço */
+    height: 300px;
+    width: 100%;
+
+}
+
+.card {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+#novas {
+    text-align: center;
+}
+
+.redes {
+    display: flex;
+
+}
+
+.footer p {
+    text-align: center;
+    padding: 5px;
+
+}
+
+@media screen and (max-width:600px) {
+
+
+    @media screen and (max-width: 600px) {
+        .carousel {
+            margin: 0 auto;
+            max-width: 100%;
+            /* O carrossel vai ocupar 100% da largura da tela */
+            overflow: hidden;
+        }
+    }
+
+    .carousel img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .carousel {
+
+        margin: 0 auto;
+        max-width: none;
+        /* Ajuste esse valor conforme a necessidade */
+        overflow: hidden;
+        grid-template-columns: 1fr;
+    }
+
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
