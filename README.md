@@ -20,7 +20,7 @@ Esta plataforma de séries foi desenvolvida para permitir aos usuários buscar, 
 
 1. **Clone o Repositório**
    ```bash
-   git clone https://github.com/seu-usuario/plataforma-series.git
+  git clone https://github.com/otavio-castro/Eppi-TV.git
 2. **Utilizar os comandos npm**
     ```bash
    npm install
