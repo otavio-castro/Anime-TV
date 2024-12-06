@@ -6,15 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="detalhes.css">
-    <title>EppiTV - Detalhes da Série</title>
+    <title>Anime TV - Detalhes da Série</title>
 </head>
 
 <body>
 
     <header class="header">
-        <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand text-light" href="index.html"><strong>Eppi TV<i class="fa-solid fa-play"></i></strong></a>
+                <a class="navbar-brand text-light" href="index.html"><strong>Anime TV<i
+                            class="fa-solid fa-play"></i></strong></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -24,7 +25,8 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-light" aria-current="page" href="explorar.html"><strong>Explorar</strong></a>
+                            <a class="nav-link active text-light" aria-current="page"
+                                href="explorar.html"><strong>Explorar</strong></a>
                         </li>
                     </ul>
                 </div>
@@ -33,14 +35,15 @@
     </header>
 
     <main class="main">
-        <h2 class="title01"><strong>Visão Geral</strong></h2>
+      
 
-        <div class="container_">
+        <div class="container_ mt-5">
             <div class="secao01">
                 <div class="card" style="width: 18rem;">
                     <img id="serieImage" src="" class="card-img-top" alt="Imagem da série">
-                    <div class="card-body bg-danger">
-                        <p class="card-text text-light text-center">No ar <br><strong id="assistaAgora">Assista Agora</strong></p>
+                    <div class="card-body bg-primary">
+                        <p class="card-text text-light text-center">No ar <br><strong id="assistaAgora">Assista
+                                Agora</strong></p>
                     </div>
                 </div>
             </div>
@@ -48,7 +51,7 @@
             <div class="info">
                 <h3><strong id="serieTitle"></strong> <span id="ano"></span></h3>
                 <p><strong>Gêneros:</strong> <span id="generos"></span></p>
-                <button type="button" class="btn btn-danger" id="favoritosBtn">
+                <button type="button" class="btn btn-primary" id="favoritosBtn">
                     <i class="fa-solid fa-heart"></i> Adicionar aos Favoritos
                 </button>
 
@@ -63,10 +66,11 @@
             </div>
         </div>
 
-        <div class="elenco mb-3">
+        <div class="elenco mb-5">
             <h3><strong>Elenco</strong></h3>
             <div class="cards">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 justify-content-center" id="elencoList"></div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-2 justify-content-center" id="elencoList">
+                </div>
             </div>
         </div>
 
@@ -78,8 +82,8 @@
         </div>
     </main>
 
-    <footer class="footer text-light bg-danger">
-        <p class="text-light"><strong>Todos os direitos reservados a Eppi TV</strong></p>
+    <footer class="footer text-light bg-primary">
+        <p class="text-light"><strong>Todos os direitos reservados a Anime TV</strong></p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -87,3 +91,4 @@
 </body>
 
 </html>
+
