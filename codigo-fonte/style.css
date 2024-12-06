@@ -2,97 +2,126 @@
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
-html {
-    /* Apagina vai ocupar uma altura de 100% dela mesma*/
-    height: 100%;
-}
-
+html,
 body {
+    height: 100%;
+    background-color: #121212;
+    /* Fundo escuro */
+    color: #f5f5f5;
+    /* Texto claro */
     overflow-x: hidden;
 }
 
-
 h2 {
     margin-top: 20px;
-    color: crimson;
-    border-bottom: 1px solid black;
+    color: white;
+    /* Cor mais suave para a borda */
     margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    /* Aumenta o tamanho em 5% */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    /* Adiciona uma sombra mais evidente */
+}
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+.title01>h2{
+    border: none !important;
 }
 
 .text-crimson {
     color: crimson;
-  }
-
+}
 
 .header {
     position: fixed;
     width: 100%;
     z-index: 1000;
     top: 0;
+    background-color: #1f1f1f;
+    /* Fundo da header no tema dark */
+    border-bottom: 1px solid #333;
+}
+.novas{
+    margin-bottom: 50px;
+}
 
+.header ul li a {
+    color: #f5f5f5;
+    /* Links padrão claros */
+    transition: all 0.3s ease;
 }
 
 .header ul li a:hover {
-    border: 1px solid white;
+    border: 1px solid #f5f5f5;
     border-radius: 5px;
-
+    background-color: #333;
+    /* Fundo ao passar o mouse */
 }
 
-
-
 .title01 {
-    margin-top: 50px;
+    margin-top: 70px;
+    /* Ajustado para compensar o header fixo */
 }
 
 .main {
     padding: 20px;
 }
 
-.carousel {
-
+.carousel,
+.novas,
+.favoritas {
     margin: 40px auto;
     max-width: 90%;
-    /* Ajuste esse valor conforme a necessidade */
-    overflow: hidden;
-
-}
-
-.novas {
-
-    margin: 40px auto;
-    max-width: 80%;
- 
-    /* Ajuste esse valor conforme a necessidade */
-    overflow: hidden;
-}
-
-.favoritas {
-
-    margin: 40px auto;
-    max-width: 80%;
-    /* Ajuste esse valor conforme a necessidade */
+    /* Ajustado para consistência */
     overflow: hidden;
 }
 
 .carousel img {
-
     object-fit: cover;
-    /* Faz a imagem se ajustar dentro do espaço */
     height: 300px;
     width: 100%;
-
+    border-radius: 10px;
+    /* Bordas arredondadas para um design mais moderno */
 }
 
 .card {
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color: #1e1e1e;
+    /* Fundo dos cards no tema dark */
+    border: 1px solid #333;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 15px;
 }
 
 .card a {
     text-decoration: none;
-    color: white;
+    color: #f5f5f5;
 }
 
 #novas {
@@ -101,39 +130,48 @@ h2 {
 
 .redes {
     display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 
+.footer {
+    background-color: #1f1f1f;
+    padding: 10px;
+    border-top: 1px solid #333;
 }
 
 .footer p {
     text-align: center;
     padding: 5px;
-
+    color: #aaa;
+    /* Texto mais suave no footer */
 }
 
-@media screen and (max-width:600px) {
+.card .card-title,
+.card .card-text,
+.card a {
+    color: white !important;
+    /* Define o texto como branco */
+}
+
+.card a:hover {
+    color: #ccc !important;
+    /* Cor clara para hover (opcional) */
+    transform: scaleX(0.5);
+}
 
 
-    @media screen and (max-width: 600px) {
-        .carousel {
-            margin: 0 auto;
-            max-width: 100%;
-            /* O carrossel vai ocupar 100% da largura da tela */
-            overflow: hidden;
-        }
+
+@media screen and (max-width: 600px) {
+    .carousel {
+        margin: 0 auto;
+        max-width: 100%;
+        /* Carrossel ocupa toda a largura */
     }
 
     .carousel img {
-        height: 100%;
-        width: 100%;
-    }
-
-    .carousel {
-
-        margin: 0 auto;
-        max-width: none;
-        /* Ajuste esse valor conforme a necessidade */
-        overflow: hidden;
-        grid-template-columns: 1fr;
+        height: 200px;
+        /* Ajusta a altura em telas menores */
     }
 
     .main {
