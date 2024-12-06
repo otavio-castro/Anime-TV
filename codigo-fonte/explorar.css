@@ -175,6 +175,7 @@ h2 {
 
     .aside {
         width: 80%;
+        margin-top: 30px;
         margin-bottom: 30px;
         height: max-content;
         margin-right: auto;
