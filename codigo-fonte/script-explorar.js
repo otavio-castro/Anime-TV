@@ -41,9 +41,9 @@ async function gerarCards(categorias = '') {
                 <div class="card">
                     <img src="https://image.tmdb.org/t/p/w500${serie.poster_path}" class="card-img-top" alt="${serie.name}">
                     <div class="card-body">
-                        <h5 class="card-title text-danger">${serie.name}</h5>
+                        <h5 class="card-title text-primary">${serie.name}</h5>
                         <p class="card-text">${descricaoLimitada}</p>
-                        <button type="button" class="btn btn-danger">
+                        <button type="button" class="btn btn-primary">
                             <a href="detalhes.html?id=${serie.id}" class="text-light text-decoration-none">
                                 Assistir <i class="fa-solid fa-play"></i>
                             </a>
@@ -140,9 +140,9 @@ async function pesquisarSeries() {
                 <div class="card">
                     <img src="https://image.tmdb.org/t/p/w500${serie.poster_path}" class="card-img-top" alt="${serie.name}">
                     <div class="card-body">
-                        <h5 class="card-title text-danger">${serie.name}</h5>
+                        <h5 class="card-title text-primary">${serie.name}</h5>
                         <p class="card-text">${descricaoLimitada}</p>
-                        <button type="button" class="btn btn-danger">
+                        <button type="button" class="btn btn-primary">
                             <a href="detalhes.html?id=${serie.id}" class="text-light text-decoration-none">
                                 Assistir <i class="fa-solid fa-play"></i>
                             </a>
