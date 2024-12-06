@@ -12,46 +12,28 @@
   },
   "seriesFavoritas": [
     {
-      "id": "1668",
-      "nome": "Friends",
-      "descricao": "Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York.",
-      "link": "detalhes_friends.html"
+      "id": 57706,
+      "nome": "Ranma ½",
+      "descricao": "Saotome Ranma, um artista marcial adolescente, e seu pai Genma viajam para o 'amaldiçoado campo de treinamento' de Jusenkyo na China. Lá, apesar dos avisos...",
+      "link": "detalhes_57706.html"
     },
     {
-      "id": "60574",
-      "nome": "Peaky Blinders",
-      "descricao": "Thomas Shelby e seus irmãos retornam a Birmingham depois de servir no exército britânico durante a Primeira Guerra Mundial.",
-      "link": "detalhes_peaky.html"
+      "id": 131041,
+      "nome": "BLUE LOCK",
+      "descricao": "Após sofrer um vexame na Copa do Mundo de 2018, a seleção japonesa sofre para se recompor. Falta ao time um artilheiro, uma estrela capaz...",
+      "link": "detalhes_131041.html"
     },
     {
-      "id": "48891",
-      "nome": "Brooklyn Nine-Nine",
-      "descricao": "O brilhante e imaturo detetive Jake Peralta precisa aprender a seguir as regras e trabalhar em equipe quando um capitão exigente assume o comando.",
-      "link": "detalhes_nine.html"
+      "id": 75214,
+      "nome": "Violet Evergarden",
+      "descricao": "A guerra acabou, e Violet Evergarden precisa de trabalho. Cheia de cicatrizes, ela aceita trabalhar como escritora de cartas para entender a si mesma e...",
+      "link": "detalhes_75214.html"
     },
     {
-      "id": "1405",
-      "nome": "Dexter",
-      "descricao": "Renomado funcionário da Polícia de Miami, Dexter esconde uma segunda identidade: ele é um assassino em série que mata os criminosos.",
-      "link": "detalhes_dexter.html"
-    },
-    {
-      "id": "44217",
-      "nome": "Vikings",
-      "descricao": "Ragnar Lothbrok, um jovem que se considera descendente de Odin, é um guerreiro, fazendeiro e chefe de família. Visionário e sonhando viver diversas aventuras, ele acredita que as riquezas estão no novo mundo.",
-      "link": "detalhes_vikings.html"
-    },
-    {
-      "id": "1399",
-      "nome": "Game of Thrones",
-      "descricao": "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra.",
-      "link": "detalhes_game.html"
-    },
-    {
-      "id": "94605",
-      "nome": "Arcane",
-      "descricao": "Em meio ao conflito entre as cidades-gêmeas de Piltover e Zaun, duas irmãs lutam em lados opostos de uma guerra entre tecnologias mágicas e convicções incompatíveis.",
-      "link": "detalhes_94605.html"
+      "id": 203737,
+      "nome": "Oshi no Ko",
+      "descricao": "A talentosa e bonita Ai Hoshino de 16 anos é uma ídolo adorada por seus fãs. A personificação da donzela pura. Mas nem tudo que...",
+      "link": "detalhes_203737.html"
     }
   ]
 }
